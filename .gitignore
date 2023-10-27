@@ -11,3 +11,7 @@
 /DAL/obj
 /DTO/obj
 /models/obj
+/BL/bin/Debug/net7.0
+/DAL/bin/Debug/net7.0
+/DTO/bin/Debug/net7.0
+/models/bin/Debug/net7.0
