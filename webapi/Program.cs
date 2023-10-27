@@ -1,3 +1,5 @@
+using API.Controllers;
+using BL.managers;
 using DAL;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,10 +13,22 @@ builder.Services.AddDbContext<WSContext>(options =>
     options.UseSqlServer(dbConnectionString);
 });
 
+
+builder.Services.AddScoped<WorkshopManager>();
+builder.Services.AddScoped<WorkshopQuery>();
+builder.Services.AddScoped<WorkshopMutation>();
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddGraphQLServer()
+    .AddQueryType(q => q.Name("Query"))
+    .AddMutationType(m => m.Name("Mutation"))
+    .AddType<WorkshopQuery>()
+    .AddType<WorkshopMutation>();
 
 var app = builder.Build();
 
@@ -30,5 +44,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGraphQL();
 
 app.Run();
