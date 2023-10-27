@@ -1,25 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="models.model.Tutorial">
-    <Position X="1.75" Y="4" Width="1.5" />
+    <Position X="1.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAQAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>model\Tutorial.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="steps" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="models.model.TutorialStep">
-    <Position X="4.75" Y="4.5" Width="1.5" />
+    <Position X="4.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIBAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAIBAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>model\TutorialStep.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="models.model.Workshop">
-    <Position X="2.75" Y="6.5" Width="1.5" />
+    <Position X="1.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAAIAAAAAAAAAICAAAAAAgAAAAAAIAAAAAAAAAAA=</HashCode>
+      <HashCode>QAACAAIAAAAAAAAAICAAAAIAgAAAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>model\Workshop.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="tutorial" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
