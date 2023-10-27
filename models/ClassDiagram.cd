@@ -1,4 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="models.model.Tutorial">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>model\Tutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="models.model.TutorialStep">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIBAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\TutorialStep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="models.model.Workshop">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAAAAAAICAAAAAAgAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>model\Workshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
