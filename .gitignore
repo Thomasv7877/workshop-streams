@@ -7,3 +7,7 @@
 /angularapp/obj/Debug
 /webapi/bin/Debug/net7.0
 /webapi/obj
+/BL/obj
+/DAL/obj
+/DTO/obj
+/models/obj
